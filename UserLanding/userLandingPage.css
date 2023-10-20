@@ -39,6 +39,8 @@
 
 .hero-section img{
     border-radius: 1.4rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .navbar-brand img{
@@ -54,19 +56,21 @@
     border-color: white;
 } */
 
+/* .hero-section{
+    position: absolute;
+    min-width: 4.375rem;
+    min-height: 4.375rem;
+    max-width: 4.375rem;
+    max-height: 4.375rem;
+} */
 
 
-.bookMech{
+.bookMech, .aboutUs{
     font-size:x-large;
     text-decoration: underline;
     cursor: pointer;
 }
 
-.aboutUs{
-    font-size:x-large;
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .gradient-background{ 
     background-image: linear-gradient(200deg ,white, white, #253aa5);
@@ -168,16 +172,17 @@
 .reviewGallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .image {
-    width: 22%;
+    width: 30%;
     height: 28.125rem;
     position: relative;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin-left: 2.1875rem;
+    /* margin-right: 1.25rem; */
     margin-bottom: 1.25rem;
     /* border-radius: 0.625rem; */
+    
     overflow: hidden;
 }
 
@@ -201,9 +206,9 @@
     padding: 0.625rem;
     height: 35%;
     width: 100%;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 500;
-    color:white;
+    color:snow;
 }
 .FAQs {
     background-color: #f7f7f7; 
